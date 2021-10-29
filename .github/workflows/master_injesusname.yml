@@ -24,6 +24,7 @@ jobs:
       - name: npm install, build, and test
         run: |
           npm install
+          npm cache clean --force
           npm install -g yarn
           yarn add -D yarn-check-webpack-plugin
           npm install -g @angular/cli@8.3.6
