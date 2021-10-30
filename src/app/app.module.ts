@@ -208,7 +208,6 @@ const appRoutes: Routes =[
     MatPaginatorModule,
     MatInputModule,
     FormsModule,
-    Ng2CarouselamosModule,
     MatFormFieldModule,
     MatSelectModule,
     GoogleChartsModule,
