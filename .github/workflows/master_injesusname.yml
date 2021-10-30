@@ -27,6 +27,7 @@ jobs:
           npm cache clean --force
           npm install -g yarn
           yarn add -D yarn-check-webpack-plugin
+          npm install
           npm install -g @angular/cli@8.3.6
           npm link
           ng add ngx-build-plus
